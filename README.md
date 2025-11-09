@@ -8,7 +8,7 @@
 
 ## Автоматическая установка и настройка Xray для WSL с systemd поддержкой
 
-Простое решение для быстрого развертывания VPN-подключения через Xray в среде Windows Subsystem for Linux с полной интеграцией systemd.
+Простое решение для быстрого развертывания Xray VPN client в среде Windows Subsystem for Linux с полной интеграцией systemd.
 
 ## ✨ Возможности
 
@@ -32,7 +32,8 @@
 ### Установка в одну команду
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/scripts/install.sh | bash
+# Загружает репозиторий и создает .env файл
+curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/bootstrap.sh | bash
 ```
 
 Или клонируйте и запустите вручную:
@@ -40,8 +41,10 @@ curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/mai
 ```bash
 git clone https://github.com/fixplizz-dev/xray-wsl-bootstrap.git
 cd xray-wsl-bootstrap
-chmod +x scripts/install.sh
-./scripts/install.sh
+cp .env.example .env
+# Отредактируйте .env с вашими настройками сервера
+nano .env
+sudo ./scripts/install.sh
 ```
 
 ## ⚙️ Настройка
@@ -235,7 +238,7 @@ xray-wsl-bootstrap/
 
 ### 📞 Получить помощь
 
-- 🐛 [Создать issue](https://github.com/fixplizz-dev/xray-wsl-bootstrap/issues) - для багов и предложений  
+- 🐛 [Создать issue](https://github.com/fixplizz-dev/xray-wsl-bootstrap/issues) - для багов и предложений
 - 💬 [Обсуждения](https://github.com/fixplizz-dev/xray-wsl-bootstrap/discussions) - для вопросов и идей
 - ⭐ [Поставить звезду](https://github.com/fixplizz-dev/xray-wsl-bootstrap) - если проект полезен
 - 📖 [Wiki](https://github.com/fixplizz-dev/xray-wsl-bootstrap/wiki) - расширенная документация

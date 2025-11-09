@@ -8,7 +8,7 @@
 - Protected branch - no direct commits
 - Only merges from `development` after approval and testing
 
-### Development Branch (`development`)  
+### Development Branch (`development`)
 - Active development of new phases
 - All new features and iterations
 - Must pass all tests before merging to main
@@ -25,7 +25,7 @@
 ### Release Creation
 1. Create release branch from `development`: `git checkout -b release/v0.2.0`
 2. Final testing and documentation updates
-3. Create Pull Request to `main` 
+3. Create Pull Request to `main`
 4. **Wait for approval** before merging
 5. Tag release after merge: `git tag v0.2.0`
 
