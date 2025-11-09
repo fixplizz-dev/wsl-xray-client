@@ -1,8 +1,10 @@
 # 🚀 Xray WSL Bootstrap
 
-[![⭐ Star me on GitHub](https://img.shields.io/github/stars/fixplizz/xray-wsl-bootstrap?style=social)](https://github.com/fixplizz/xray-wsl-bootstrap)
-[![🐛 Report Issues](https://img.shields.io/github/issues/fixplizz/xray-wsl-bootstrap)](https://github.com/fixplizz/xray-wsl-bootstrap/issues)
-[![💬 Discussions](https://img.shields.io/github/discussions/fixplizz/xray-wsl-bootstrap)](https://github.com/fixplizz/xray-wsl-bootstrap/discussions)
+[![GitHub Stars](https://img.shields.io/github/stars/fixplizz-dev/xray-wsl-bootstrap?style=flat-square&logo=github&color=yellow)](https://github.com/fixplizz-dev/xray-wsl-bootstrap/stargazers)
+[![GitHub Issues](https://img.shields.io/github/issues/fixplizz-dev/xray-wsl-bootstrap?style=flat-square&logo=github&color=red)](https://github.com/fixplizz-dev/xray-wsl-bootstrap/issues)
+[![GitHub Discussions](https://img.shields.io/github/discussions/fixplizz-dev/xray-wsl-bootstrap?style=flat-square&logo=github&color=blue)](https://github.com/fixplizz-dev/xray-wsl-bootstrap/discussions)
+[![Latest Release](https://img.shields.io/github/v/release/fixplizz-dev/xray-wsl-bootstrap?style=flat-square&logo=github&color=green)](https://github.com/fixplizz-dev/xray-wsl-bootstrap/releases)
+[![License](https://img.shields.io/github/license/fixplizz-dev/xray-wsl-bootstrap?style=flat-square&color=blue)](LICENSE)
 
 ## Автоматическая установка и настройка Xray для WSL с systemd поддержкой
 
@@ -30,13 +32,13 @@
 ### Установка в одну команду
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/fixplizz/xray-wsl-bootstrap/main/scripts/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/scripts/install.sh | bash
 ```
 
 Или клонируйте и запустите вручную:
 
 ```bash
-git clone https://github.com/fixplizz/xray-wsl-bootstrap.git
+git clone https://github.com/fixplizz-dev/xray-wsl-bootstrap.git
 cd xray-wsl-bootstrap
 chmod +x scripts/install.sh
 ./scripts/install.sh
@@ -233,15 +235,10 @@ xray-wsl-bootstrap/
 
 ### 📞 Получить помощь
 
-- 🐛 [Создать issue](https://github.com/fixplizz/xray-wsl-bootstrap/issues) - для багов и предложений
-- 💬 [Обсуждения](https://github.com/fixplizz/xray-wsl-bootstrap/discussions) - для вопросов и идей
-- ⭐ [Поставить звезду](https://github.com/fixplizz/xray-wsl-bootstrap) - если проект полезен
-
-### ☕ Поддержать проект
-
-Если этот проект помог вам, рассмотрите возможность поддержки разработки:
-
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/fixplizz)
+- 🐛 [Создать issue](https://github.com/fixplizz-dev/xray-wsl-bootstrap/issues) - для багов и предложений  
+- 💬 [Обсуждения](https://github.com/fixplizz-dev/xray-wsl-bootstrap/discussions) - для вопросов и идей
+- ⭐ [Поставить звезду](https://github.com/fixplizz-dev/xray-wsl-bootstrap) - если проект полезен
+- 📖 [Wiki](https://github.com/fixplizz-dev/xray-wsl-bootstrap/wiki) - расширенная документация
 
 ## 🏷️ Версии и обновления
 
@@ -260,6 +257,8 @@ xray-wsl-bootstrap/
 - [Xray официальная документация](https://xtls.github.io/)
 - [WSL документация](https://docs.microsoft.com/en-us/windows/wsl/)
 - [Systemd в WSL](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl/)
+
+---
 
 ---
 
