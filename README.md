@@ -13,7 +13,7 @@
 ## ⚡ Быстрый старт
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/bootstrap.sh | bash
+curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/scripts/bootstrap.sh | bash
 ```
 
 **Что происходит:**
@@ -147,12 +147,13 @@ sudo ./scripts/install.sh    # переустановить
 ```
 xray-wsl-bootstrap/
 ├── xray-wsl              # Главный CLI интерфейс
-├── bootstrap.sh          # Быстрая установка
 ├── scripts/
+│   ├── bootstrap.sh      # Быстрая установка  
 │   ├── install.sh        # Установка Xray
 │   ├── manage.sh         # Управление сервисом
 │   ├── check-ip.sh       # Проверка соединения
-│   └── setup-config.sh   # Интерактивная настройка
+│   ├── setup-config.sh   # Интерактивная настройка
+│   └── wsl-setup.sh      # Копирование в WSL
 ├── lib/
 │   ├── common.sh         # Общие функции
 │   ├── url_parser.sh     # Парсер URL/QR кодов

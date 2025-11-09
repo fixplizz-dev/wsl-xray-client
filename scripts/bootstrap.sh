@@ -191,7 +191,7 @@ print_usage() {
 Xray WSL Bootstrap - One-Command Installer v$SCRIPT_VERSION
 
 USAGE:
-    curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/bootstrap.sh | bash
+    curl -fsSL https://raw.githubusercontent.com/fixplizz-dev/xray-wsl-bootstrap/main/scripts/bootstrap.sh | bash
 
 DESCRIPTION:
     Downloads and installs Xray VPN client for WSL2 with systemd support.
