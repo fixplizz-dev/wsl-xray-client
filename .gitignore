@@ -71,20 +71,13 @@ dist/
 *.a
 *.so
 
-# Development and testing artifacts
-*.test
-test_*
-*_test.sh
-coverage.out
-.coverage
-
-# Node/Python caches (if accidentally introduced)
-node_modules/
-__pycache__/
-*.pyc
-
 # Runtime data and process files
 *.pid
 *.socket
 .xray/
 xray.pid
+
+# Node/Python caches (if accidentally introduced)
+node_modules/
+__pycache__/
+*.pyc
